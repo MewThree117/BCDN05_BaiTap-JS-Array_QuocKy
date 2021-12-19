@@ -1,0 +1,130 @@
+function bai1() {
+    document.getElementById("lesson__1").style.display = "block";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai2() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "block";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai3() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "block";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai4() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "block";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai5() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "block";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai6() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "block";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai7() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "block";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai8() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "block";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "block";
+}
+function bai9() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "block";
+    document.getElementById("lesson__10").style.display = "none";
+    document.querySelector(".array_wrap").style.display = "none";
+}
+function bai10() {
+    document.getElementById("lesson__1").style.display = "none";
+    document.getElementById("lesson__2").style.display = "none";
+    document.getElementById("lesson__3").style.display = "none";
+    document.getElementById("lesson__4").style.display = "none";
+    document.getElementById("lesson__5").style.display = "none";
+    document.getElementById("lesson__6").style.display = "none";
+    document.getElementById("lesson__7").style.display = "none";
+    document.getElementById("lesson__8").style.display = "none";
+    document.getElementById("lesson__9").style.display = "none";
+    document.getElementById("lesson__10").style.display = "block";
+    document.querySelector(".array_wrap").style.display = "block";
+}

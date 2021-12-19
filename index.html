@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập JS_6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="title mb-5">Bài tập Javascript - Array</h1>
+        <div class="form__field w-75 mx-auto">
+            <div class="row">
+                <div id="btns" class="col__left col-2 p-4">
+                    <button onclick="bai1()" class="form__btn active w-100">Bài 1</button>
+                    <button onclick="bai2()" class="form__btn w-100 mt-2">Bài 2</button>
+                    <button onclick="bai3()" class="form__btn w-100 mt-2">Bài 3</button>
+                    <button onclick="bai4()" class="form__btn w-100 mt-2">Bài 4</button>
+                    <button onclick="bai5()" class="form__btn w-100 mt-2">Bài 5</button>
+                    <button onclick="bai6()" class="form__btn w-100 mt-2">Bài 6</button>
+                    <button onclick="bai7()" class="form__btn w-100 mt-2">Bài 7</button>
+                    <button onclick="bai8()" class="form__btn w-100 mt-2">Bài 8</button>
+                    <button onclick="bai9()" class="form__btn w-100 mt-2">Bài 9</button>
+                    <button onclick="bai10()" class="form__btn w-100 mt-2">Bài 10</button>
+                </div>
+                <div class="col__right col-10 p-4">
+                    <div class="array_wrap mb-4 mt-4">
+                        <div class="form__array">
+                            <input type="number" id="form__data" class="form__input mr-4" placeholder="Nhập số n">
+                            <button id="array_input" class="col__right-btn btn btn-primary">Thêm số</button>
+                        </div>
+                        <div class="form__result mt-4">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__showArray"></p>
+                        </div>
+                    </div>
+
+                    <div class="form__answer" id="lesson__1">
+                        <h2 class="mb-4">Tổng số dương.</h2>
+                        <button id="btn_1" class="col__right-btn btn btn-primary mb-4">Tính tổng</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__tongDuong"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__2">
+                        <h2 class="mb-4">Đếm số dương.</h2>
+                        <button id="btn_2" class="col__right-btn btn btn-primary mb-4">Đếm số</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__demSo"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__3">
+                        <h2 class="mb-4">Tìm số nhỏ nhất.</h2>
+                        <button id="btn_3" class="col__right-btn btn btn-primary mb-4">Tìm số nhỏ nhất</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__min"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__4">
+                        <h2 class="mb-4">Tìm số dương nhỏ nhất.</h2>
+                        <button id="btn_4" class="col__right-btn btn btn-primary mb-4">Tìm số dương nhỏ nhất</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__minDuong"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__5">
+                        <h2 class="mb-4">Tìm số chẵn cuối cùng.</h2>
+                        <button id="btn_5" class="col__right-btn btn btn-primary mb-4">Tìm số chẵn</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__soChanCuoiCung"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__6">
+                        <h2 class="mb-4">Đổi chỗ.</h2>
+                        <div class="inp__list mb-4">
+                            <div class="inp__item">
+                                <input type="number" id="vitri1" class="form__input" placeholder="Nhập số vị trí 1">
+                            </div>
+                            <div class="inp__item">
+                                <input type="number" id="vitri2" class="form__input" placeholder="Nhập số vị trí 2">
+                            </div>
+                            <div class="inp__item"></div>
+                        </div>
+                        <button id="btn_6" class="col__right-btn btn btn-primary mb-4">Đổi chỗ</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__doiCho"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__7">
+                        <h2 class="mb-4">Sắp xếp tăng dần.</h2>
+                        <button id="btn_7" class="col__right-btn btn btn-primary mb-4">Sắp xếp</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__sapXep"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__8">
+                        <h2 class="mb-4">Tìm số nguyên tố đầu tiên.</h2>
+                        <button id="btn_8" class="col__right-btn btn btn-primary mb-4">Tìm số nguyên tố</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__soNguyenTo"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__9">
+                        <h2 class="mb-4">Đếm số nguyên.</h2>
+                        <div class="array_wrap mb-4 mt-4">
+                            <div class="form__array">
+                                <input type="number" id="form__data9" class="form__input mr-4" placeholder="Nhập số">
+                                <button id="array_input9" class="col__right-btn btn btn-primary">Thêm số</button>
+                            </div>
+                            <div class="form__result mt-4">
+                                <i class="fa fa-hand-point-right"></i>
+                                <p id="txt__showArray9"></p>
+                            </div>
+                        </div>
+                        <button id="btn_9" class="col__right-btn btn btn-primary mb-4">Đếm số nguyên</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__demSoNguyen"></p>
+                        </div>
+                    </div>
+                    <div class="form__answer" id="lesson__10">
+                        <h2 class="mb-4">So sánh số lượng số âm và số dương.</h2>
+                        <button id="btn_10" class="col__right-btn btn btn-primary mb-4">So sanh</button>
+                        <div class="form__result">
+                            <i class="fa fa-hand-point-right"></i>
+                            <p id="txt__soSanh"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var header = document.getElementById("btns");
+        var btns = header.getElementsByClassName("form__btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    <!-- JS BS4 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- Main JS -->
+    <script src="./JS/bai1.js"></script>
+    <script src="./JS/onclick_btn.js"></script>
+</body>
+</html>
